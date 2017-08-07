@@ -1,0 +1,366 @@
+@font-face{
+    font-family: MyriadPro;
+    src: url("../fontFace/MyriadPro/MyriadPro-Regular.otf");
+}
+
+.header, .headerHeader, .headerMain, .headerFooter{
+	background: #fcdb00;
+}
+.headerHeader{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	border: none;
+	box-shadow: none;
+	width: 83%;
+	margin: auto;
+}
+.headerConteiner{
+	margin: 35px 0 0 54px;
+	width: 100%;
+}
+.headerImgLogo{
+	display: flex;
+	margin: 7px 0 0 0;
+}
+.img{
+	height: 43px;
+	width: 43px;
+	margin:2px 0 0 67px;
+}
+.headerLogo{
+	font-family: MyriadPro, Arial;
+	margin: 12px 0 0 10px;
+	font-weight: bold;
+	font-size: 32px;
+	color: #010101;
+}
+.navbar-header{
+	display: flex;
+}
+.headerMenu{
+	width: 428px;
+	background: #fcdb00 !important;
+	border: 0;
+	box-shadow: none;
+	list-style: none; 
+	margin: 24px 0 0 0 !important;
+	padding-left: 0;
+}
+.headerMenuPart{
+	color: #010101 !important;
+	text-decoration: none;
+	margin: 0 36px 0 0!important;
+	font-weight: bold;
+	font-size: 21px;
+}
+.headerMenuPart:hover{
+	text-decoration: none;
+	color: #010101;
+}
+
+.mainYellowText{
+	margin: 115px 0 0 10px;
+}
+.mainYellowTextHeader{
+	font-family: MyriadPro, Arial;
+	font-weight: bold;
+	font-size: 33px;
+	color: #010101;
+}
+.mainYellowTextMain{
+	font-family: MyriadPro, Arial;
+	margin: 5px 0 0 0;
+	font-size: 21px;
+	line-height: 1.3;
+	color: #313841;
+	width: 317px;
+}
+.mainYellowTextFooter{
+	font-family: MyriadPro, Arial;
+	font-size: 16px;
+	display: inline-block;
+	margin: 16px 0 0 0;
+	line-height: 1.2;
+	color: #555555;
+	width: 410px;
+}
+.mainIconsOnYellow{
+	display: flex;
+	margin: 42px 0 0 0;
+}
+.mainIconsOs{
+	margin: 0 37px 0 0;
+}
+.mainYellowIpad{
+	height: 470px;
+	width: 315px;
+	background: #ffffff;
+	margin: 54px 0 0 9px;
+	padding: 44px 0;
+	border-radius: 20px;
+}
+.mainYellowIpadScreen{
+	height: 382px;
+	width: 288px;
+	background: #010101;
+	margin: 0 14px;
+}
+.mainYellowIpadLogo{
+	display: flex;
+	color: #fcdb00;
+	font-weight: bold;
+	font-size: 28px;
+	padding: 150px 66px;
+}
+.imgYellow{
+	height: 50px;
+	width: 55px;
+	margin: 0 5px 0 0;
+}
+.ipadLogo{
+	margin: 5px 0 0 0;
+}
+.switch{
+	display: flex;	
+	margin: 44px 0 50px 97px;
+}
+.partOfSwitch, .partOfSwitchWite{
+	width: 14px;
+	height: 14px;
+	background: #feed80;
+	border-radius: 50%;
+	margin: 0 5px 0 0;
+}
+.partOfSwitchWite{
+	background: #fff;
+}
+.maiWhite{
+	background: #ffffff;
+}
+.mainHeader{
+	font-family: MyriadPro, Arial;
+	width: 760px;
+	margin: 110px auto 72px;
+	text-align: center;
+}
+.mainHeaderTitle{
+	font-size: 32px;
+	font-weight: bold;
+/*	word-spacing: 15px;*/
+	margin: 0 0 5px 45px;
+}
+.mainHeaderText{
+	font-size: 20px;
+	line-height: 1.2;
+	margin: 0 0 0 28px;
+}
+.mainMain{
+	display: flex;
+	flex-direction: column;
+	width: 78%;
+	margin: 10px auto 88px;
+}
+.mainMainRow{
+	display: flex;
+	margin: 0 0 24px 78px;
+}
+.rowPart{
+	display: flex;
+	margin: 0 0 32px 0;
+}
+
+
+.colText{
+	font-family: MyriadPro, Arial;
+	margin: 1px 0 0 18px;
+}
+
+.colTextHeader{
+	font-size: 22px;
+	color: #010101;
+}
+.colTextText{
+	font-size: 16px;
+	color: #898989;
+}
+.tablet{
+	margin: 0 0 0 18px;
+}
+.tabletText{
+	margin: 2px 0 0 32px
+}
+.lemon{
+	margin: 0 0 0 5px;
+}
+.lemonText{
+	margin: 3px 0 0 25px;
+}
+.folder{
+	margin: 0 0 0 -5px;
+}
+.textFolder{
+	margin:2px 0 0 19px;
+}
+.code{
+	margin: 0 0 0 5px;
+}
+.footer, .footerRow{
+	background: #010101;
+}
+.footerConteiner{
+	width: 59%;
+	margin: auto;
+}
+.footerTextHeader{
+	font-family: MyriadPro, Arial;
+	font-size: 32px;
+	font-weight: bold;
+	color: #fcdb00;
+	text-align: center;
+	margin: 84px 0 0 50px;
+}
+.footerTextMain{
+	font-family: MyriadPro, Arial;
+	font-size: 20px;
+	color: #898989;
+	text-align: center;
+	margin: 7px 0 0 21px;
+	line-height: 1.2;
+}
+.emailForm{
+	display: flex;
+	height: 50px;
+	margin: 42px 0 0 54px;
+}
+.emailFormInput{
+	height: 50px;
+	margin: 0 10px 0 0;
+}
+.emailFormBtn{
+	background: #fcdb00;
+	font-weight: bold;
+	width: 157px;
+	margin: 0 12px 0 11px;
+	color: #010101;
+}
+.socialIcons{
+	color: #fcdb00;
+	width: 30%;
+	margin: 76px 0 0 90px;
+	display: flex;
+	justify-content: space-between;
+	height: 44px;
+}
+.icon{
+	width: 50px;
+	margin: 0 19px 0 0;
+}
+.footerConteinerText{
+	margin: 124px 0 137px 12px;
+	display: flex;
+}
+.text{
+	margin: 0 26px 0 0;
+}
+.footertext{
+	font-family: MyriadPro, Arial;
+	font-size: 16px;
+	color: #fff;
+	width: 190px;
+	margin: 0;
+}
+.footerlist{
+	list-style: none;
+	margin: 0 0 0 52px;
+/*		padding-left: 0;*/
+	
+}
+.footerlistPart{
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+.footerlistPart:hover{
+	text-decoration: none;
+	color:#fff;
+}
+@media  screen and (min-width: 769px) and (max-width: 991px){
+	.headerHeader{
+		width: 100%;
+	}
+	.headerConteiner{
+		margin: 35px 0 0 0;
+	}
+	.mainMainRow{
+		margin: 0 0 24px 10px;
+	}
+	.mainYellowText{
+		margin: 40px 0 0 0;
+	}
+	.mainYellowTextFooter {
+		width: 290px;
+	}
+}
+@media  screen and (max-width: 768px){
+	.headerHeader{
+		width: 95%;
+	}
+	.headerConteiner{
+		margin: 0 50px;
+	}
+	.headerImgLogo{
+		margin: 7px 74px 0 0;
+	}
+	.img{
+		margin: 0 0 0 -10px;
+	}
+	.mainHeader{
+		width: 360px;
+	}
+	.headerLogo{
+		margin: 10px 0 0 10px
+	}
+	.navbarToggleMasc{
+		margin: 10px 0 0 5px;
+	}
+	.mainYellowText{
+		margin: 50px 0 0 10px
+	}
+	.mainMain{
+		margin: 10px auto 25px;
+	}
+	.mainMainRow{
+		display: flex;
+		margin: 0 0 24px 5px;
+		flex-direction: column;
+	}
+	.footerRow{
+		margin: 0;
+	}
+	.footerTextHeader{
+		margin: 84px 0 0 0;
+	}
+	.footerConteiner{
+		width: 100%;
+	}
+	.emailForm{
+		margin: 42px 0 0 15px
+	}
+	.socialIcons{
+		width: 100%;
+		margin: 76px 10px 0 0;
+	}
+	.footerConteinerText{
+		display: flex;
+		flex-direction: column;
+		margin: 50px 0 40px 12px;
+	}
+	.text {
+    	margin: 0 0px 20px 0;
+	}
+	.footerlist{
+		margin: 0 0 15px 0;
+		padding: 0;
+	}
+}
